@@ -13,7 +13,7 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch("https://rag-backend.onrender.com/chat", {
+      const response = await fetch("https://rag-react-app-1.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
